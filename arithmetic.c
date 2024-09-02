@@ -8,6 +8,7 @@ int main()
     scanf("%d",b);
     sum=a+b;
     mul=a*b;
-    printf("the adition and multiplication of the two numbers is:%d ", sum);
+    printf("the adition of the two numbers is:%d ", sum);
+    printf("the product of two numbers are: %d ",mul);
     return 0;
 }
