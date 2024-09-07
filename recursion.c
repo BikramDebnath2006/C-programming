@@ -1,11 +1,12 @@
 #include<stdio.h>
 int sum();
-int n;
+int factorial(n);
 int sumn;
 int main()
 {
+    int n;
    int b=sum(5);
-   printf("the sum of two numbers is: %d" , b) ;
+   printf("the sum of numbers is: %d" , b) ;
    return 0;
 }
 int sum(n)
