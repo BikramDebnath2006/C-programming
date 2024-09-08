@@ -1,18 +1,21 @@
 #include<stdio.h>
-void swapping(int *x,int *y);
+void swapping(int *x ,int *y);
 int main()
-{int a=4,b=5;
+{
+    int a=5, b=4;
 
  swapping(&a,&b);
+ return 0;
 }
-void swapping(int *x,int *y)
+
+void swapping(int*x, int *y)
 {
-    int b=*x;
+    int t=*x;
     *x=*y;
-    *y=b;
+    *y=t;
+    
     printf("the first number becomes:%d",*x);
     printf("the second number swaping becomes: %d",*y);
 
-    
-
+return 0;
 }
