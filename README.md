@@ -1,4 +1,4 @@
 # C-programming
-in hands projects done using C  LANGUAGE
+in hands programs done using C  LANGUAGE
 <BR>
 Author-Bikram Debnath
